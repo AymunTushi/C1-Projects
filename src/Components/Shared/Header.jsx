@@ -35,130 +35,7 @@ const Header = ({sidebar,setSidebar}) => {
             <span className="bx bx-search-alt" />
           </div>
         </form>
-        {/* <div className="dropdown dropdown-mega d-none d-lg-block ms-2">
-          <button type="button" className="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-            <span key="t-megamenu">Mega Menu</span>
-            <i className="mdi mdi-chevron-down" /> 
-          </button>
-          <div className="dropdown-menu dropdown-megamenu">
-            <div className="row">
-              <div className="col-sm-8">
-                <div className="row">
-                  <div className="col-md-4">
-                    <h5 className="font-size-14" key="t-ui-components">UI Components</h5>
-                    <ul className="list-unstyled megamenu-list">
-                      <li>
-                        <a href="javascript:void(0);" key="t-lightbox">Lightbox</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-range-slider">Range Slider</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-sweet-alert">Sweet Alert</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-rating">Rating</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-forms">Forms</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-tables">Tables</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-charts">Charts</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="col-md-4">
-                    <h5 className="font-size-14" key="t-applications">Applications</h5>
-                    <ul className="list-unstyled megamenu-list">
-                      <li>
-                        <a href="javascript:void(0);" key="t-ecommerce">Ecommerce</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-calendar">Calendar</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-email">Email</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-projects">Projects</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-tasks">Tasks</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-contacts">Contacts</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="col-md-4">
-                    <h5 className="font-size-14" key="t-extra-pages">Extra Pages</h5>
-                    <ul className="list-unstyled megamenu-list">
-                      <li>
-                        <a href="javascript:void(0);" key="t-light-sidebar">Light Sidebar</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-compact-sidebar">Compact Sidebar</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-horizontal">Horizontal layout</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-maintenance">Maintenance</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-coming-soon">Coming Soon</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-timeline">Timeline</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-faqs">FAQs</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-4">
-                <div className="row">
-                  <div className="col-sm-6">
-                    <h5 className="font-size-14" key="t-ui-components">UI Components</h5>
-                    <ul className="list-unstyled megamenu-list">
-                      <li>
-                        <a href="javascript:void(0);" key="t-lightbox">Lightbox</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-range-slider">Range Slider</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-sweet-alert">Sweet Alert</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-rating">Rating</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-forms">Forms</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-tables">Tables</a>
-                      </li>
-                      <li>
-                        <a href="javascript:void(0);" key="t-charts">Charts</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="col-sm-5">
-                    <div>
-                      <img src="assets/images/megamenu-img.png" alt className="img-fluid mx-auto d-block" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
+       
       </div>
       <div className="d-flex">
         <div className="dropdown d-inline-block d-lg-none ms-2">
@@ -179,9 +56,7 @@ const Header = ({sidebar,setSidebar}) => {
           </div>
         </div>
         <div className="dropdown d-inline-block">
-          {/* <button type="button" className="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img id="header-lang-img" src="assets/images/flags/us.jpg" alt="Header Language" height={16} />
-          </button> */}
+         
           <div className="dropdown-menu dropdown-menu-end">
             {/* item*/}
             <a href="javascript:void(0);" className="dropdown-item notify-item language" data-lang="en">
@@ -205,60 +80,7 @@ const Header = ({sidebar,setSidebar}) => {
             </a>
           </div>
         </div>
-        {/* <div className="dropdown d-none d-lg-inline-block ms-1">
-          <button type="button" className="btn header-item noti-icon waves-effect" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i className="bx bx-customize" />
-          </button>
-          <div className="dropdown-menu dropdown-menu-lg dropdown-menu-end">
-            <div className="px-lg-2">
-              <div className="row g-0">
-                <div className="col">
-                  <a className="dropdown-icon-item" href="#">
-                    <img src="assets/images/brands/github.png" alt="Github" />
-                    <span>GitHub</span>
-                  </a>
-                </div>
-                <div className="col">
-                  <a className="dropdown-icon-item" href="#">
-                    <img src="assets/images/brands/bitbucket.png" alt="bitbucket" />
-                    <span>Bitbucket</span>
-                  </a>
-                </div>
-                <div className="col">
-                  <a className="dropdown-icon-item" href="#">
-                    <img src="assets/images/brands/dribbble.png" alt="dribbble" />
-                    <span>Dribbble</span>
-                  </a>
-                </div>
-              </div>
-              <div className="row g-0">
-                <div className="col">
-                  <a className="dropdown-icon-item" href="#">
-                    <img src="assets/images/brands/dropbox.png" alt="dropbox" />
-                    <span>Dropbox</span>
-                  </a>
-                </div>
-                <div className="col">
-                  <a className="dropdown-icon-item" href="#">
-                    <img src="assets/images/brands/mail_chimp.png" alt="mail_chimp" />
-                    <span>Mail Chimp</span>
-                  </a>
-                </div>
-                <div className="col">
-                  <a className="dropdown-icon-item" href="#">
-                    <img src="assets/images/brands/slack.png" alt="slack" />
-                    <span>Slack</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* <div className="dropdown d-none d-lg-inline-block ms-1">
-          <button type="button" className="btn header-item noti-icon waves-effect" data-bs-toggle="fullscreen">
-            <i className="bx bx-fullscreen" />
-          </button>
-        </div> */}
+        
         <div className="dropdown d-inline-block">
           <button type="button" className="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i className="bx bx-bell bx-tada" />
@@ -356,11 +178,7 @@ const Header = ({sidebar,setSidebar}) => {
             <a className="dropdown-item text-danger" href="#"><i className="bx bx-power-off font-size-16 align-middle me-1 text-danger" /> <span key="t-logout">Logout</span></a>
           </div>
         </div>
-        {/* <div class="dropdown d-inline-block">
-                  <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
-                      <i class="bx bx-cog bx-spin"></i>
-                  </button>
-              </div> */}
+       
       </div>
     </div>
   </header>
