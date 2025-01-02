@@ -1,9 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
-import formReducer from './features/formData/formDataSlice'
+import formReducer from './features/formData/formDataSlice';
+import bandwidthReqModalReducer from "./features/modals/bandwidthReqSlice";
+
 
 const store=configureStore({
     reducer: {
-        form: formReducer
+        form: formReducer,
+        bandwidthReqModal:bandwidthReqModalReducer,
     }
 })
 

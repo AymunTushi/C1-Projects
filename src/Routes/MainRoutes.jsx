@@ -9,6 +9,8 @@ import Notice from '../Pages/Notice'
 import AssignContact from '../Pages/AssignContact'
 import TechnicalInfo from '../Pages/TechnicalInfo'
 import MainLayout from '../Layout/MainLayout'
+import Registration from '../Pages/SignIn/Registration'
+import Login from '../Pages/SignIn/Login'
 
 
 export const routes=[
@@ -26,5 +28,7 @@ export const routes=[
       {path: "/technical-info", element: <TechnicalInfo/>},
       
     ]
-  }
+  },
+  {path:"/registration",element: <Registration/>},
+  {path:"/login",element: <Login/>},
 ]

@@ -65,7 +65,7 @@ const Sidebar = ({activemenu,setActiveMenu}) => {
 
         <li className={activemenu=="Technical Information" ? "mm-active" : ""}>
           <Link to="/technical-info" onClick={()=>setActiveMenu("Technical Information")} className="waves-effect">
-            <i className="bx bxs-user-detail" />
+            <i className="bx bx-briefcase-alt" />
             <span key="t-contacts">Technical Information</span>
           </Link>
           
