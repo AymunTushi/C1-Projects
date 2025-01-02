@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 const Header = ({sidebar,setSidebar}) => {
   return (
     <div>
@@ -8,14 +10,14 @@ const Header = ({sidebar,setSidebar}) => {
       <div className="d-flex">
         {/* LOGO */}
         <div className="navbar-brand-box">
-          <a href="index.html" className="logo logo-dark">
+          <Link to="/" className="logo logo-dark">
             <span className="logo-sm">
               <img src="images/logo.svg" alt height={22} />
             </span>
             <span className="logo-lg">
               <img src="images/logo-dark.png" alt height={17} />
             </span>
-          </a>
+          </Link>
           <a href="index.html" className="logo logo-light">
             <span className="logo-sm">
               <img src="images/logo-light.svg" alt height={22} />

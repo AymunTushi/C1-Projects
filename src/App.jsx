@@ -1,19 +1,17 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import Dashboard from './Pages/Dashboard/Dashboard';
-import Registration from './Pages/LogIn/Registration';
-import Login from './Pages/LogIn/Login';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { routes } from './Routes/MainRoutes';
+
+
 
 const App = () => {
+  const router=createBrowserRouter(routes);
   return (
-    <div>
-      <Routes>
-        <Route path='/' element={<Dashboard/>}/>
-        <Route path='/registration' element={<Registration/>}/>
-        <Route path='/login' element={<Login/>}/>
-      </Routes>
-    </div>
+    <RouterProvider router={router}/>
+
+
   );
 };
 
 export default App;
+
